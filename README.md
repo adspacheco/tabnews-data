@@ -52,16 +52,26 @@ Descrição do PR
 - Formato estruturado similar aos Pull Requests
 - Será povoado com dados de bugs, feature requests e discussões
 
+### `prompt.md` (1KB)
+**Template de Prompt para Agente TabNews**
+
+- Prompt especializado para criar um agente de IA expert no projeto TabNews
+- Define o contexto, responsabilidades e estilo de comunicação do agente
+- Foco no entendimento e aprendizado, não em gerar código automaticamente
+- Configurado para usar os dados estruturados deste repositório como base de conhecimento
+- Inclui diretrizes para manter a consistência com a filosofia e padrões do projeto
+
 ### `README.md` (este arquivo)
 **Documentação e guia de uso**
 
 ## 🎯 Casos de Uso
 
-### Para Agentes de IA e Codificação
-- **Análise de Código**: Use `codebase.md` para compreender a arquitetura completa
-- **Context Window**: Arquivos otimizados para caber em context windows de LLMs
-- **Geração de Código**: Base de conhecimento para gerar código consistente com o projeto
-- **Code Review**: Análise automatizada baseada em padrões históricos
+### Para Agentes de IA e Aprendizado
+- **Mentor Técnico Especializado**: Use `prompt.md` para criar um assistente expert focado no entendimento do TabNews
+- **Análise Arquitetural**: Compreenda decisões técnicas e padrões através do histórico de PRs
+- **Orientação para Contribuições**: Aprenda a filosofia do projeto e como propor melhorias alinhadas
+- **Context Window Otimizado**: Arquivos estruturados para maximizar o aproveitamento em LLMs
+- **Code Review Educativo**: Análise baseada em padrões históricos para aprendizado
 
 ### Para Análise de Projeto
 - **Evolução do Código**: Histórico completo via Pull Requests
@@ -71,7 +81,19 @@ Descrição do PR
 
 ## 🔧 Como Usar
 
-### Com LLMs/Agentes de IA
+### Criando um Agente TabNews
+**Método recomendado com Claude Projects (ou similar):**
+
+1. **Crie um novo projeto/agente** na sua plataforma de IA preferida
+2. **Adicione os arquivos de dados** como knowledge base:
+   - `codebase.md` - código completo do projeto
+   - `pull_requests.md` - histórico de PRs e reviews  
+   - `issues.md` - issues e discussões (quando disponível)
+3. **Configure as instruções** usando o conteúdo do `prompt.md`
+
+O agente estará pronto para ajudar no entendimento do projeto, explicar decisões arquiteturais, e orientar contribuições alinhadas com a filosofia do TabNews.
+
+### Uso Programático
 ```bash
 # Carregar código completo
 cat codebase.md | your-ai-tool
@@ -101,6 +123,7 @@ Os arquivos usam tags XML-like para estruturação:
 | `codebase.md` | 1.6MB | Código completo do TabNews |
 | `pull_requests.md` | 1.2MB | PRs mergeados e reviews |
 | `issues.md` | 0B | Issues (a ser povoado) |
+| `prompt.md` | 1KB | Template de prompt para agente |
 
 ---
 
