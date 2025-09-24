@@ -8,7 +8,7 @@ Os arquivos markdown neste repositório foram processados e compactados com tags
 
 ## 📁 Descrição dos Arquivos
 
-### `codebase.md` (1.6MB)
+### `codebase.md` (49.639 linhas)
 **Representação completa do código-fonte do TabNews**
 
 - Contém todo o código-fonte do repositório TabNews empacotado em um único documento
@@ -26,7 +26,7 @@ Os arquivos markdown neste repositório foram processados e compactados com tags
 <file path="...">conteúdo do arquivo</file>
 ```
 
-### `pull_requests.md` (1.2MB)  
+### `pull_requests.md` (17.976 linhas)  
 **Histórico completo de Pull Requests**
 
 - Coleção estruturada de todos os Pull Requests mergeados do projeto TabNews
@@ -52,7 +52,7 @@ Descrição do PR
 - Formato estruturado similar aos Pull Requests
 - Será povoado com dados de bugs, feature requests e discussões
 
-### `prompt.md` (1KB)
+### `prompt.md` (43 linhas)
 **Template de Prompt para Agente TabNews**
 
 - Prompt especializado para criar um agente de IA expert no projeto TabNews
@@ -118,12 +118,12 @@ Os arquivos usam tags XML-like para estruturação:
 
 ## 📊 Estatísticas
 
-| Arquivo | Tamanho | Conteúdo |
+| Arquivo | Linhas | Conteúdo |
 |---------|---------|----------|
-| `codebase.md` | 1.6MB | Código completo do TabNews |
-| `pull_requests.md` | 1.2MB | PRs mergeados e reviews |
+| `codebase.md` | 49.639 linhas | Código completo do TabNews |
+| `pull_requests.md` | 17.976 linhas | PRs mergeados e reviews |
 | `issues.md` | 50.098 linhas | Histórico de issues e discussões |
-| `prompt.md` | 1KB | Template de prompt para agente |
+| `prompt.md` | 43 linhas | Template de prompt para agente |
 
 ---
 
