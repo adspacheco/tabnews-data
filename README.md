@@ -45,10 +45,10 @@ Descrição do PR
 </pull_{número}_{título_sanitizado}>
 ```
 
-### `issues.md` (0B)
-**Arquivo de Issues (atualmente vazio)**
+### `issues.md` (50.098 linhas)
+**Histórico completo de Issues**
 
-- Preparado para conter o histórico de issues do repositório TabNews
+- Coleção estruturada de todas as issues do projeto TabNews
 - Formato estruturado similar aos Pull Requests
 - Será povoado com dados de bugs, feature requests e discussões
 
@@ -122,9 +122,11 @@ Os arquivos usam tags XML-like para estruturação:
 |---------|---------|----------|
 | `codebase.md` | 1.6MB | Código completo do TabNews |
 | `pull_requests.md` | 1.2MB | PRs mergeados e reviews |
-| `issues.md` | 0B | Issues (a ser povoado) |
+| `issues.md` | 50.098 linhas | Histórico de issues e discussões |
 | `prompt.md` | 1KB | Template de prompt para agente |
 
 ---
 
 > 💡 **Dica**: Para melhor performance com LLMs, considere dividir arquivos grandes em chunks baseados nas tags estruturais.
+
+*README gerado por IA*
